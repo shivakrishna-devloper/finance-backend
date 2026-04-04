@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Finance Dashboard Backend
 
 A RESTful backend API for a Finance Dashboard system built with Node.js, Express, and SQLite. Features role-based access control, financial records management, and summary analytics.
@@ -482,3 +483,6 @@ All errors follow this format:
 | JWT over sessions | Stateless, easier to scale |
 | Synchronous SQLite | Simplifies code flow |
 | In-memory rate limiting | Simple implementation |
+=======
+
+>>>>>>> 2846e1d8eeea4a4ff1e940eff9caa45c24d6d9e9
