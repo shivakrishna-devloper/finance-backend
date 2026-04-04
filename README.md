@@ -63,19 +63,19 @@ finance-backend/
 ## Setup Instructions
 
 ### 1. Clone the repository
-git clone https://github.com/shivakrishna-devloper/finance-backend.git 
+git clone https://github.com/shivakrishna-devloper/finance-backend.git  
 cd finance-backend
 
 ### 2. Install dependencies
 npm install
 
 ### 3. Create environment file
-Create a `.env` file in the root folder:
-PORT=3000
-NODE_ENV=development
-JWT_SECRET=your_super_secret_jwt_key_change_in_production
-JWT_EXPIRES_IN=7d
-DB_PATH=./src/database/finance.db
+Create a `.env` file in the root folder:  
+PORT=3000  
+NODE_ENV=development  
+JWT_SECRET=your_super_secret_jwt_key_change_in_production  
+JWT_EXPIRES_IN=7d  
+DB_PATH=./src/database/finance.db  
 
 ### 4. Seed the database
 node src/database/seed.js
