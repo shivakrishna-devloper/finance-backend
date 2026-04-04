@@ -483,6 +483,6 @@ All errors follow this format:
 | JWT over sessions | Stateless, easier to scale |
 | Synchronous SQLite | Simplifies code flow |
 | In-memory rate limiting | Simple implementation |
-=======
+
 
 
