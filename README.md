@@ -22,7 +22,7 @@ A RESTful backend API for a Finance Dashboard system built with Node.js, Express
 ---
 
 ## Project Structure
-
+```
 finance-backend/
 ├── .env
 ├── .gitignore
@@ -57,13 +57,13 @@ finance-backend/
 ├── record.routes.js
 └── dashboard.routes.js
 
-
+```
 ---
 
 ## Setup Instructions
 
 ### 1. Clone the repository
-git clone https://github.com/shivakrishna-devloper/finance-backend.git
+git clone https://github.com/shivakrishna-devloper/finance-backend.git 
 cd finance-backend
 
 ### 2. Install dependencies
