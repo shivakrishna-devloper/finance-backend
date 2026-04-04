@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Finance Dashboard Backend
 
 A RESTful backend API for a Finance Dashboard system built with Node.js, Express, and SQLite. Features role-based access control, financial records management, and summary analytics.
