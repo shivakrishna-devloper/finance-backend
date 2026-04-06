@@ -64,8 +64,7 @@ finance-backend/
 ├── user.routes.js
 ├── record.routes.js
 └── dashboard.routes.js
-
-
+```
 ---
 
 ## Setup Instructions
