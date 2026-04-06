@@ -5,6 +5,14 @@ A RESTful backend API for a Finance Dashboard system built with Node.js, Express
 
 ---
 
+# Finance Dashboard Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-v20-green)
+![Express](https://img.shields.io/badge/Express-v4.18-blue)
+![SQLite](https://img.shields.io/badge/Database-SQLite-orange)
+![JWT](https://img.shields.io/badge/Auth-JWT-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## Tech Stack
 
 | Technology | Purpose |
@@ -57,7 +65,7 @@ finance-backend/
 ├── record.routes.js
 └── dashboard.routes.js
 
-```
+
 ---
 
 ## Setup Instructions
@@ -121,8 +129,8 @@ Server runs at: `http://localhost:3000`
 http://localhost:3000/api/health
 
 ### Authentication Header
-All protected routes require:
-Authorization: Bearer your_token_here
+All protected routes require:  
+Authorization: Bearer your_token_here  
 
 ---
 
@@ -214,7 +222,7 @@ Response:
 #### GET /users
 Get all users with pagination.
 
-Query params:
+Query params:  
 page=1&limit=10&role=viewer&status=active
 
 Response:
@@ -298,9 +306,9 @@ Response:
 ### Record Routes
 
 #### GET /records
-Get all records. All roles.
+Get all records. All roles.  
 
-Query params:
+Query params:  
 page=1&limit=10&type=income&category=Salary&startDate=2025-01-01&endDate=2025-12-31
 
 Response:
@@ -337,7 +345,7 @@ Get single record. All roles.
 ---
 
 #### POST /records
-Create record. Admin and Analyst only.
+Create record. Admin and Analyst only.  
 
 Request:
 ```json
@@ -430,7 +438,7 @@ Weekly trends for last 8 weeks. Analyst and Admin only.
 #### GET /dashboard/recent
 Recent activity. All roles.
 
-Query params:
+Query params:  
 limit=10
 
 ---
@@ -484,5 +492,18 @@ All errors follow this format:
 | Synchronous SQLite | Simplifies code flow |
 | In-memory rate limiting | Simple implementation |
 
+---
+
+## License
+
+This project is created for assessment purposes only.
+
+---
+
+## Author
+
+- **Name:** Shiva Krishna
+- **GitHub:** [shivakrishna-devloper](https://github.com/shivakrishna-devloper)
+- **Email:** [kodurishivakrishna8@email.com](mailto:kodurishivakrishna8@email.com)
 
 
